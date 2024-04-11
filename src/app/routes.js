@@ -33,8 +33,13 @@ const AnimatedRoutes = withRouter(({ location }) => (
 function AppRoutes() {
   return (
     <div className="s_c">
+      <div>
       <AnimatedRoutes />
+      </div>
+      <div>
       <Socialicons />
+      </div>
+      
     </div>
   );
 }
